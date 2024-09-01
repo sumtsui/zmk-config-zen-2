@@ -29,9 +29,9 @@ static struct zmk_widget_output_status output_status_widget;
 static struct zmk_widget_peripheral_status peripheral_status_widget;
 #endif
 
-#if IS_ENABLED(CONFIG_CUSTOM_WIDGET_LAYER_STATUS)
-static struct zmk_widget_layer_status layer_status_widget;
-#endif
+// #if IS_ENABLED(CONFIG_CUSTOM_WIDGET_LAYER_STATUS)
+// static struct zmk_widget_layer_status layer_status_widget;
+// #endif
 
 lv_obj_t *zmk_display_status_screen() {
 
