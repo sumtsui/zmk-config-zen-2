@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: zmk-config-zen-2
+    - name: sumtsui
       url-base: https://github.com/sumtsui
   projects:
-    - name: zmk
-      remote: zmk-config-zen-2
+    - name: zmk-config-zen-2 # repo name
+      remote: sumtsui
       revision: main  # custom branch name
       import: app/west.yml
   self:
