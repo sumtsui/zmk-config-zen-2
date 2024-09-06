@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: caksoylar
-      url-base: https://github.com/caksoylar
+    - name: zmk-config-zen-2
+      url-base: https://github.com/sumtsui
   projects:
     - name: zmk
-      remote: caksoylar
-      revision: caksoylar/zen-v1+v2  # custom branch name
+      remote: zmk-config-zen-2
+      revision: main  # custom branch name
       import: app/west.yml
   self:
     path: config
