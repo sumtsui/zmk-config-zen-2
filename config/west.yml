@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk-config-zen-2 # repo name
       remote: sumtsui
-      revision: main  # custom branch name
-      import: app/west.yml
+      revision: https://github.com/sumtsui/zmk-config-zen-2
+      # import: app/west.yml
   self:
     path: config
